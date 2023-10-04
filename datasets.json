@@ -1,0 +1,202 @@
+{
+    "bagls": {
+        "train_img": [
+            "image",
+            ".png"
+        ],
+        "train_mask": [
+            "mask",
+            "_seg.png"
+        ],
+        "train_samples": [
+            "image",
+            "*.png"
+        ],
+        "test_img": [],
+        "num_classes": 1
+    },
+    "bolus": {
+        "train_img": [
+            "image",
+            ".png"
+        ],
+        "train_mask": [
+            "mask",
+            ".png"
+        ],
+        "train_samples": [
+            "image",
+            "*.png"
+        ],
+        "test_img": [],
+        "num_classes": 1
+    },
+    "kvasir": {
+        "train_img": [
+            "images",
+            ".jpg"
+        ],
+        "train_mask": [
+            "masks",
+            ".jpg"
+        ],
+        "train_samples": [
+            "images",
+            "*.jpg"
+        ],
+        "test_img": [],
+        "num_classes": 1
+    },
+    "heart": {
+        "train_img": [
+            "train/image",
+            ".png"
+        ],
+        "train_mask": [
+            "train/mask",
+            ".png"
+        ],
+        "train_samples": [
+            "train/image",
+            "*.png"
+        ],
+        "test_img": [
+            "test",
+            "*.png"
+        ],
+        "num_classes": 1
+    },
+    "hippocampus": {
+        "train_img": [
+            "train/image",
+            ".png"
+        ],
+        "train_mask": [
+            "train/mask",
+            ".png"
+        ],
+        "train_samples": [
+            "train/image",
+            "*.png"
+        ],
+        "test_img": [
+            "test",
+            "*.png"
+        ],
+        "num_classes": 2
+    },
+    "liver": {
+        "train_img": [
+            "train/image",
+            ".png"
+        ],
+        "train_mask": [
+            "train/mask",
+            ".png"
+        ],
+        "train_samples": [
+            "train/image",
+            "*.png"
+        ],
+        "test_img": [
+            "test",
+            "*.png"
+        ],
+        "num_classes": 2
+    },
+    "lung": {
+        "train_img": [
+            "train/image",
+            ".png"
+        ],
+        "train_mask": [
+            "train/mask",
+            ".png"
+        ],
+        "train_samples": [
+            "train/image",
+            "*.png"
+        ],
+        "test_img": [
+            "test",
+            "*.png"
+        ],
+        "num_classes": 1
+    },
+    "pancreas": {
+        "train_img": [
+            "train/image",
+            ".png"
+        ],
+        "train_mask": [
+            "train/mask",
+            ".png"
+        ],
+        "train_samples": [
+            "train/image",
+            "*.png"
+        ],
+        "test_img": [
+            "test",
+            "*.png"
+        ],
+        "num_classes": 2
+    },
+    "hepaticvessel": {
+        "train_img": [
+            "train/image",
+            ".png"
+        ],
+        "train_mask": [
+            "train/mask",
+            ".png"
+        ],
+        "train_samples": [
+            "train/image",
+            "*.png"
+        ],
+        "test_img": [
+            "test",
+            "*.png"
+        ],
+        "num_classes": 2
+    },
+    "spleen": {
+        "train_img": [
+            "train/image",
+            ".png"
+        ],
+        "train_mask": [
+            "train/mask",
+            ".png"
+        ],
+        "train_samples": [
+            "train/image",
+            "*.png"
+        ],
+        "test_img": [
+            "test",
+            "*.png"
+        ],
+        "num_classes": 1
+    },
+    "colon": {
+        "train_img": [
+            "train/image",
+            ".png"
+        ],
+        "train_mask": [
+            "train/mask",
+            ".png"
+        ],
+        "train_samples": [
+            "train/image",
+            "*.png"
+        ],
+        "test_img": [
+            "test",
+            "*.png"
+        ],
+        "num_classes": 1
+    }
+}

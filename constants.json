@@ -1,0 +1,32 @@
+{
+    "filter_size": [
+        4,
+        8,
+        16,
+        32
+    ],
+    "norm_dict": [
+        "LN",
+        "GN_2",
+        "GN_4",
+        "FRN",
+        "IN",
+        "BN",
+        "NN"
+    ],
+    "input_norm": [
+        "0_1",
+        "-1_1",
+        "mean/std"
+    ],
+    "activation_func": [
+        "relu",
+        "leaky_relu"
+    ],
+    "norm_params": [
+        "g+b",
+        "b",
+        "g",
+        "n"
+    ]
+}
